@@ -1,0 +1,88 @@
+*{
+  color: antiquewhite;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 70vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.whole{
+  background-color: rgb(18, 62, 127);
+  height: 150vh;
+}
+button{
+  background-color: rgb(235, 156, 235);
+  color: antiquewhite;
+  border: none;
+  margin-top: 15px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  font-weight: 700;
+}
+button:hover{
+  background-color: rgb(216, 51, 170);
+}
+input{
+ 
+  height: 20px;
+  width: 90%;
+  color: blue;
+}
+table{
+  margin-top: 20px;
+  
+}
+table thead th{
+  background-color: rgb(28, 113, 210);
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 72px;
+  
+  text-align: center;
+}
+table tbody td{
+  background-color: rgb(97, 168, 250);
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 72px;
+  
+  text-align: center;
+}
+.newdata{
+  border: 3px solid rgb(43, 0, 255); 
+  margin: 10px;
+}
+span{
+ 
+
+  text-align: center;
+  border: 3px solid red;
+}
+.Data{
+  display: flex;
+  justify-content: center;
+}
+.section{
+  text-align: center;
+  background-color: rgb(28, 113, 210);
+  height: 55vh;
+  width: 25%;
+  border-radius: 20px;
+  border: 0px solid rgb(247, 19, 216);
+
+}
+h1{
+  font-size: large;
+  background-color: violet;
+}
